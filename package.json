@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r --filter=./packages/** run build",
+    "prod": "pnpm -r --filter=./packages/** run prod",
+    "dev": "pnpm --parallel --filter=./** run dev",
+    "test": "pnpm -r --filter=./packages/** run test",
+    "type-check": "pnpm -r --filter=./packages/** run type-check",
+    "lint": "pnpm biome lint .",
+    "lint:fix": "pnpm biome lint --apply .",
+    "lint:ci": "pnpm biome lint --error-on-warnings .",
+    "format": "pnpm biome check .",
+    "format:fix": "pnpm biome format --write ."
+  },
+  "author": "xiaodong2008 <hi@xiaodong.moe>",
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "^1.7.3",
+    "@types/node": "^20.11.15",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
+  }
+}
