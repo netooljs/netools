@@ -8,14 +8,10 @@
 		"rules": {
 			"recommended": true
 		},
-    "ignore": [
-      "dist"
-    ]
+		"ignore": ["dist"]
 	},
-  "formatter": {
-    "enabled": true,
-    "ignore": [
-      "dist"
-    ]
-  }
+	"formatter": {
+		"enabled": true,
+		"ignore": ["dist"]
+	}
 }

@@ -1,26 +1,26 @@
 {
-  "private": true,
-  "scripts": {
-    "build": "pnpm -r --filter=./packages/** run build",
-    "prod": "pnpm -r --filter=./packages/** run prod",
-    "dev": "pnpm --parallel --filter=./** run dev",
-    "test": "vitest run",
-    "test:watch": "vitest",
-    "type-check": "pnpm -r --filter=./packages/** run type-check",
-    "lint": "biome lint .",
-    "lint:fix": "biome lint --apply .",
-    "lint:ci": "biome lint --error-on-warnings .",
-    "format": "biome check .",
-    "format:fix": "biome format --write ."
-  },
-  "author": "xiaodong2008 <hi@xiaodong.moe>",
-  "license": "MIT",
-  "devDependencies": {
-    "@biomejs/biome": "^1.7.3",
-    "@types/node": "^20.11.15",
-    "esbuild": "^0.21.3",
-    "tslib": "^2.6.2",
-    "typescript": "^5.4.5",
-    "vitest": "^1.6.0"
-  }
+	"private": true,
+	"scripts": {
+		"build": "pnpm -r --filter=./packages/** run build",
+		"prod": "pnpm -r --filter=./packages/** run prod",
+		"dev": "pnpm --parallel --filter=./** run dev",
+		"test": "vitest run",
+		"test:watch": "vitest",
+		"type-check": "pnpm -r --filter=./packages/** run type-check",
+		"lint": "biome lint .",
+		"lint:fix": "biome lint --apply .",
+		"lint:ci": "biome lint --error-on-warnings .",
+		"format": "biome check .",
+		"format:fix": "biome format --write ."
+	},
+	"author": "xiaodong2008 <hi@xiaodong.moe>",
+	"license": "MIT",
+	"devDependencies": {
+		"@biomejs/biome": "^1.7.3",
+		"@types/node": "^20.11.15",
+		"esbuild": "^0.21.3",
+		"tslib": "^2.6.2",
+		"typescript": "^5.4.5",
+		"vitest": "^1.6.0"
+	}
 }

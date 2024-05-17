@@ -11,7 +11,7 @@ describe("log: createOutput", () => {
   });
 
   const consoleSpy = vi.spyOn(console, "log");
-  consoleSpy.mockImplementation(() => {});
+  consoleSpy.mockImplementation(() => { });
 
   it("should log a message", () => {
     const output = createOutput("test");
@@ -38,5 +38,5 @@ describe("log: createOutput", () => {
     expect(consoleSpy).toHaveBeenCalledWith("[test] Hello, world!".red);
 
     consoleSpy.mockReset();
-  })
-})
+  });
+});
