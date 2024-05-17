@@ -5,9 +5,9 @@ Netools is a collection of network tools, all redesigned, faster, easier.
 ## WIP
 
 - [ ] `@netooljs/core`
-  - Basic Interface
-  - Warning / Error
-  - Log output
+  - [ ] Basic Interface
+  - [ ] Warning / Error
+  - [ ] Log output
 - [ ] `@netooljs/ping`
   - [ ] ping
     - [ ] Adaptive Timeout
