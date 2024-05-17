@@ -19,8 +19,12 @@
     "@biomejs/biome": "^1.7.3",
     "@types/node": "^20.11.15",
     "esbuild": "^0.21.3",
+    "simple-git-hooks": "^2.11.1",
     "tslib": "^2.6.2",
     "typescript": "^5.4.5",
     "vitest": "^1.6.0"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm run format:fix"
   }
 }
