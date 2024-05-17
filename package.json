@@ -7,11 +7,11 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "type-check": "pnpm -r --filter=./packages/** run type-check",
-    "lint": "pnpm biome lint .",
-    "lint:fix": "pnpm biome lint --apply .",
-    "lint:ci": "pnpm biome lint --error-on-warnings .",
-    "format": "pnpm biome check .",
-    "format:fix": "pnpm biome format --write ."
+    "lint": "biome lint .",
+    "lint:fix": "biome lint --apply .",
+    "lint:ci": "biome lint --error-on-warnings .",
+    "format": "biome check .",
+    "format:fix": "biome format --write ."
   },
   "author": "xiaodong2008 <hi@xiaodong.moe>",
   "license": "MIT",

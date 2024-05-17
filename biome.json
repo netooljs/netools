@@ -7,6 +7,15 @@
 		"enabled": true,
 		"rules": {
 			"recommended": true
-		}
-	}
+		},
+    "ignore": [
+      "dist"
+    ]
+	},
+  "formatter": {
+    "enabled": true,
+    "ignore": [
+      "dist"
+    ]
+  }
 }
