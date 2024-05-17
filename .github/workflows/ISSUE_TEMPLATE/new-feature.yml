@@ -1,5 +1,5 @@
 name: "\U0001F680 New feature"
-description: Suggest a new feature for ***PROJECT_NAME
+description: Suggest a new feature for netools
 labels:
   - "Status: Needs Triage"
 body:
@@ -11,8 +11,8 @@ body:
         Please make sure you have read these guidelines:
 
         - [Code of Conduct](***LINK_TO_CODE_OF_CONDUCT)
-        - [Issue Reporting Guidelines](https://github.com/***REPO/blob/main/.github/contributing.md#issue-reporting-guidelines)
-        - [Pull Request Guidelines](https://github.com/***REPO/blob/main/.github/contributing.md#pull-request-guidelines)
+        - [Issue Reporting Guidelines](https://github.com/netooljs/netools/blob/main/.github/contributing.md#issue-reporting-guidelines)
+        - [Pull Request Guidelines](https://github.com/netooljs/netools/blob/main/.github/contributing.md#pull-request-guidelines)
 
   - type: textarea
     id: feature-description
@@ -39,7 +39,7 @@ body:
       options:
         - label: I have read the [Code of Conduct](***LINK_TO_CODE_OF_CONDUCT)
           required: true
-        - label: I have read the [Issue Reporting Guidelines](https://github.com/***REPO/blob/main/.github/contributing.md#issue-reporting)
+        - label: I have read the [Issue Reporting Guidelines](https://github.com/netooljs/netools/blob/main/.github/contributing.md#issue-reporting)
           required: true
         - label: I have searched for similar issues in both open and closed tickets and cannot find a duplicate
           required: true

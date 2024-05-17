@@ -1,27 +1,53 @@
-# Mono Starter
+# Netools
 
-This is a starter template for a mono repository, with:
+Netools is a collection of network tools, all redesigned, faster, easier.
 
-- [PNPM](https://pnpm.io/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Biome](https://biomejs.dev/)
+## WIP
 
-## Getting Started
-
-First, create a new repository using this template.
-
-Then, open the project and globally search `***` to replace all placeholders with your project's information.
-
-## Finish Setup
-
-> [!TIP]
-> Run `corepack enable` if you don't have `pnpm` installed.
-
-Finally, run the following command to install the dependencies:
-
-```bash
-pnpm install
-```
+- [ ] `@netooljs/core`
+  - Basic Interface
+  - Warning / Error
+  - Log output
+- [ ] `@netooljs/ping`
+  - [ ] ping
+    - [ ] Adaptive Timeout
+    - [ ] Payload
+    - [ ] Keep Alive
+    - [ ] Ping Statistics
+    - [ ] DNS
+    - [ ] Log
+  - [ ] multi-ping
+  - [ ] monitor
+    - [ ] Alert / Notification
+- [ ] `@netooljs/tracert`
+  - [ ] ICMP tracert
+  - [ ] UDP tracert
+  - [ ] Parallel
+  - [ ] Hop
+  - [ ] TTL
+  - [ ] Log
+- [ ] `@netools/cli`
+  - [ ] CLI
+    - [ ] Ping
+      - [ ] Adaptive Timeout
+      - [ ] Payload
+      - [ ] Keep Alive
+      - [ ] Ping Statistics
+      - [ ] DNS
+      - [ ] Log
+    - [ ] Tracert
+      - [ ] ICMP tracert
+      - [ ] UDP tracert
+      - [ ] Parallel
+      - [ ] Hop
+      - [ ] TTL
+      - [ ] Log
+  - [ ] Export
+- [ ] Entry Package
+  - [ ] `@netools/core`
+  - [ ] `@netools/cli`
+  - [ ] `@netools/ping`
+  - [ ] `@netools/tracert`
 
 ## Sponsors
 

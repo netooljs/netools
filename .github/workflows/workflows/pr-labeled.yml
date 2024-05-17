@@ -19,11 +19,11 @@ jobs:
         with:
           issue-number: ${{ github.event.number }}
           body: |
-            We are happy to see you're contributing to ***PROJECT_NAME, but we are unable to merge this pull request for now, because of:
+            We are happy to see you're contributing to netools, but we are unable to merge this pull request for now, because of:
             - This pull request does not fix a bug.
             - This pull request need to have some changes.
             - This pull request doesn't have a valid issue.
-            - You did not follow our [Contributing Guidelines](https://github.com/***REPO/blob/main/.github/contributing.md).
+            - You did not follow our [Contributing Guidelines](https://github.com/netooljs/netools/blob/main/.github/contributing.md).
             - This pull request violates our [Code of Conduct](***LINK_TO_CODE_OF_CONDUCT).
             - Other reasons.
 

@@ -36,7 +36,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.issue.number }}
           body: |
-            We are happy to see you're contributing to ***PROJECT_NAME, but we are unable to work on this issue for now, because:
+            We are happy to see you're contributing to netools, but we are unable to work on this issue for now, because:
             - It's not a bug.
             - This feature is not in our roadmap.
             - It's not a valid issue.

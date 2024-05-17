@@ -1,16 +1,16 @@
 # PROJECT_NAME Contributing Guide
 
-Hi! We're excited that you're interested in contributing to ***PROJECT_NAME.
+Hi! We're excited that you're interested in contributing to netools.
 
 Before you start, you should read these guidelines:
 
 - [Code of Conduct](***LINK_TO_CODE_OF_CONDUCT)
-- [Issue Reporting Guidelines](https://github.com/***REPO/blob/main/.github/contributing.md#issue-reporting-guidelines)
-- [Pull Request Guidelines](https://github.com/***REPO/blob/main/.github/contributing.md#pull-request-guidelines)
+- [Issue Reporting Guidelines](https://github.com/netooljs/netools/blob/main/.github/contributing.md#issue-reporting-guidelines)
+- [Pull Request Guidelines](https://github.com/netooljs/netools/blob/main/.github/contributing.md#pull-request-guidelines)
 
 ## Issue Reporting Guidelines
 
-First, you should know that, issue is not a place to ask questions. If you have any questions, you can ask on [Discussions](https://github.com/***REPO/discussions).
+First, you should know that, issue is not a place to ask questions. If you have any questions, you can ask on [Discussions](https://github.com/netooljs/netools/discussions).
 
 Any inappropriate issues will be closed immediately, and we may take actions by the [Code of Conduct](***LINK_TO_CODE_OF_CONDUCT) mentioned above.
 
