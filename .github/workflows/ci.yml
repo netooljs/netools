@@ -68,6 +68,24 @@ jobs:
 
       - name: Run format check
         run: npm run format
+  
+  lint-check:
+    name: Lint Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm i
+
+      - name: Run lint check
+        run: npm run lint
 
   unit-test:
     name: Unit Test
