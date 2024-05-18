@@ -1,6 +1,7 @@
-import { expect, describe, it, vi } from "vitest";
-import { createOutput } from "../src";
+import { describe, expect, it, vi } from "vitest";
+
 import colors from "colors";
+import { createOutput } from "../src";
 
 describe("log: createOutput", () => {
   it("should create an output object", () => {
@@ -11,7 +12,7 @@ describe("log: createOutput", () => {
   });
 
   const consoleSpy = vi.spyOn(console, "log");
-  consoleSpy.mockImplementation(() => { });
+  consoleSpy.mockImplementation(() => {});
 
   it("should log a message", () => {
     const output = createOutput("test");

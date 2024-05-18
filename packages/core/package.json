@@ -1,16 +1,16 @@
 {
-	"name": "@netooljs/core",
-	"version": "0.1.0",
-	"description": "Netools is a collection of network tools, all redesigned, faster, easier.",
-	"main": "dist/index.js",
-	"scripts": {
-		"build": "esbuild src/index.ts --bundle --platform=node --outfile=dist/index.js",
-		"dev": "esbuild src/index.ts --bundle --platform=node --outfile=dist/index.js --watch"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"dependencies": {
-		"colors": "^1.4.0"
-	}
+  "name": "@netooljs/core",
+  "version": "0.1.0",
+  "description": "Netools is a collection of network tools, all redesigned, faster, easier.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --platform=node --outfile=dist/index.js",
+    "dev": "esbuild src/index.ts --bundle --platform=node --outfile=dist/index.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
 }
