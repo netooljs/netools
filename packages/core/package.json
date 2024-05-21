@@ -1,6 +1,7 @@
 {
   "name": "@netooljs/core",
   "version": "0.1.0",
+  "type": "module",
   "description": "Netools is a collection of network tools, all redesigned, faster, easier.",
   "main": "dist/index.js",
   "scripts": {
